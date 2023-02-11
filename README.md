@@ -1,2 +1,2 @@
 # jsTest
-JS + Jest + Puppeteer + PageObject
+JS + Jest + Puppeteer + PageObject + Allure-report
