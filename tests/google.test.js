@@ -9,6 +9,10 @@ const url = 'http://google.com';
 describe('google tests', () =>
 {
     beforeEach(async ()=>{
+        await reporter
+            .epic('Google test')
+            .feature('Search')
+            .description(expect.getState().currentTestName);
         mainPage = await BasePage.startTest(url,false);
         });
 
